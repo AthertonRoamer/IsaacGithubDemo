@@ -13,3 +13,9 @@ func _process(delta: float) -> void:
 func phil_sucks():
 	print("phil sucks")
 	
+	
+	
+func something_totally_random(text : String, num : int) -> float:
+	for i in range(num):
+		print(text)
+	return float(num)
